@@ -1,0 +1,240 @@
+@font-face {
+    /*font-family: community;
+    src: url(../fonts/BankGthd.ttf);*/
+}
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.cargando {
+    display: none;
+    z-index: 100;
+    width: 100%;
+    height: 100% !important;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    //background-color: transparent;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding-top: 25%;
+}
+
+.cargando.active {
+    display: block;
+}
+
+
+/* INICIO ESTILOS HFDEVELOPNET */
+
+.test {
+	border: 2px solid red !important;
+}
+
+.test1 {
+    border: 2px solid blue !important;
+}
+
+.test2 {
+    border: 2px solid black !important;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.no-margin {
+    margin: 0px !important;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+/* FIN ESTILOS HFDEVELOPNET */
+
+
+.logo-webpage {
+    height: inherit;
+}
+
+/* INICIO ESTILOS DEL MENÚ EN PANTALLAS NO PEQUEÑAS */
+
+.item-menu-webpage a {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 2.5vh;
+    color: rgba(30, 160, 92, 1);
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.item-menu-webpage:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 2.7vh;
+    text-decoration: none;
+}
+
+.item-menu-webpage a:hover {
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 2.7vh;
+    text-decoration: none;
+}
+
+/* FIN ESTILOS DEL MENÚ EN PANTALLAS NO PEQUEÑAS */
+
+/* INICIO ESTILOS DEL MENÚ EN PANTALLAS PEQUEÑAS */
+
+.item-menu-webpage-icono{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 2.5vh;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.item-menu-webpage-icono:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 2.5vh;
+    text-decoration: none;
+}
+
+.item-menu-webpage-icono label:hover {
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 2.5vh;
+    text-decoration: none;
+}
+
+.item-submenu {
+    background-color: white;
+    height: 4vh;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.2vh;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.item-submenu:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bolder;
+}
+
+/* FIN ESTILOS DEL MENÚ EN PANTALLAS PEQUEÑAS */
+
+/* START->FROM('app.css') */
+
+.btn-primary {
+    color:#fff !important;
+    background-color:#008f44 !important;
+    border-color:#007136 !important;
+    background-color: rgba(0,0,0,0.5) !important;
+    border-color: rgba(0,0,0,0.8) !important;
+}
+
+.btn-primary:hover {
+    color:#fff !important;
+    background-color:#007136 !important;
+    border-color:#008f44 !important;
+    background-color: rgba(0,0,0,0.8) !important;
+    border-color: rgba(0,0,0,0.8) !important;
+}
+
+.btn-primary.focus,.btn-primary:focus {
+    -webkit-box-shadow:0 0 0 .2rem rgba(52,144,220,.5);
+    box-shadow:0 0 0 .2rem rgba(52,144,220,.5)
+}
+
+.btn-primary.disabled,.btn-primary:disabled {
+    color:#fff;
+    background-color:#3490dc;
+    border-color:#3490dc;
+}
+
+/* END->FROM('app.css') ... FOR NOW! */
+
+/* INICIO ESTILOS LABEL + ICONO PANTALLAS PEQUEÑAS */
+
+.labelplusicon-pp {
+    height: 18vh !important;
+    width: 18vw !important;
+}
+
+.labelplusicon-pp label{
+    font-size: 8pt !important;
+}
+
+.labelplusicon-pp div{
+    height: 10vh !important;
+}
+
+/* FIN ESTILOS LABEL + ICONO PANTALLAS PEQUEÑAS */
+
+
+/* INICIO ESTILOS LABEL + ICONO PANTALLAS NO PEQUEÑAS */
+
+.labelplusicon-pnp {
+    height: 22vh !important;
+    width: 18.5vw !important;
+}
+
+.labelplusicon-pnp label{
+    font-size: 10pt !important;
+}
+
+.labelplusicon-pnp div{
+    height: 15vh !important;
+}
+/* FIN ESTILOS LABEL + ICONO PANTALLAS NO PEQUEÑAS */
+
+
+
+
+
+
+.title_page_label {
+    font-size: 5vh !important;
+    font-weight: normal;
+    //color: red;
+}
+
+.fila {
+    border-top: 1px solid #ddd;
+    min-height: 37px;
+    vertical-align: middle;
+}
+
+.fila:hover {
+    background-color: rgba(52,144,220,0.25);
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 5px;
+}
+
+.icono_enlaces {
+    font-size: 2.5vh;
+    color: #337ab7;
+    color: rgba(0,0,0,0.45);
+}
+
+.icono_enlaces:hover {
+    font-size: 2.7vh;
+    cursor: pointer;
+    color: rgba(0,0,0,0.75);
+}
