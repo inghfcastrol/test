@@ -1,0 +1,126 @@
+.test {
+	border: 2px solid blue;
+}
+
+.test1 {
+	border: 2px solid red;
+}
+
+.test2 {
+	border: 2px solid black;
+}
+
+.no-padding {
+	padding: 0px !important;
+}
+
+.logo_page {
+	background-color: #337ab7;
+	background-color: #003c6f;
+	color: #fafafa !important; 
+	border-radius: 0px 0px 10px 0px;
+}
+
+.title_page {
+	//background-color: red;
+	//font-weight: bolder;
+}
+
+.title_page_label {
+	font-size: 20px !important;
+	font-weight: normal;
+	//color: red;
+}
+
+.fila {
+	border-top: 1px solid #ddd;
+	min-height: 37px;
+	vertical-align: middle;
+}
+
+.fila:hover {
+	background-color: rgba(52,144,220,0.25);
+	border-radius: 5px;
+}
+
+.icono_enlaces {
+	font-size: 1.7vw;
+	color: #337ab7;
+}
+
+.icono_enlaces:hover {
+	font-size: 1.7vw;
+	cursor: pointer;
+}
+
+.border_test {
+	border: 2px solid red;
+}
+
+.menu_lateral {
+	border-bottom: 2px solid #cecece;
+	background-color: #efefef;
+	min-height: 40px;
+	padding-top: 10px;
+	/*padding-bottom: 10px;*/
+}
+
+.menu_lateral_titulo {
+	border: 1px solid transparent;
+	font-size: 1.2vw;
+	padding-left: 10px;
+	font-weight: lighter;
+}
+
+.menu_lateral_titulo:hover {
+	cursor: pointer;
+	font-size: 1.25vw;
+}
+
+.menu_lateral_contenido {
+	border:1px solid transparent;
+	background-color: #ffffff;
+	padding: 5px;
+}
+
+.menu_lateral_contenido label {
+	font-size: 1.1vw !important;
+	color: rgba(0,0,0,0.5);
+	font-weight: lighter;
+	display: block;
+	padding-left: 15px;
+}
+
+.menu_lateral_contenido label:hover {
+	font-size: 1.1vw !important;
+	color: rgba(51,122,183,1);
+	font-weight: normal;
+	border-bottom: 2px solid rgba(200,200,200,0.5);
+	cursor: pointer;
+}
+
+.titulo-menu-desplegable {
+	border:1px solid transparent;
+	background-color: #d0d0d0;
+}
+
+.titulo-menu-desplegable:hover {
+	background-color: #f8f9fa;
+}
+
+.titulo-menu-desplegable legend {
+	font-size: 1.7vw !important;
+	color: rgba(0,0,0,0.5);
+	font-weight: lighter;
+	display: inline;
+	padding-left: 15px;
+}
+
+.titulo-menu-desplegable legend:hover {
+	font-size: 1.7vw !important;
+	color: rgba(51,122,183,1);
+	font-weight: normal;
+	border-bottom: 2px solid rgba(200,200,200,0.5);
+	cursor: pointer;
+}
+
